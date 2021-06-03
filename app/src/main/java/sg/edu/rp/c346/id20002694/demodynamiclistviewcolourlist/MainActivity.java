@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnAdd;
     Button btnEdit;
     Button btnRemove;
-
+    //clement kwa 20002694
     ListView lvColour;
 
     @Override
@@ -65,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
         btnRemove.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+
                 alColours.remove( Integer.parseInt(editIndex.getText().toString()));
                 aaColour.notifyDataSetChanged();
             }
